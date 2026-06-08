@@ -1,0 +1,30 @@
+:root {
+    --cor-principal: #9bdb34;
+    --cor-letra-h1: #33ff00;
+    --cor_letra_h2: #00ff95;
+    --cor-fundo-div: #fa0000;
+    --cor-fundo: #000000;
+    --fonte-padrao: 'Arial', sans-serif;
+    --img-widht:350px;
+    --img-height:auto;
+
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor-fundo);  
+}
+
+h1 {
+    color: var(--cor-letra-h1);
+}
+
+img{
+    width: var(--img-widht);
+    height: var(--img-height);
+}
+div {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor-fundo-div);
+}
